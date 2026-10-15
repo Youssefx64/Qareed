@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Gradio cache & temp files
+.gradio/
+space/.gradio/
+flagged/
+
+# Model checkpoints, weights & training outputs
+checkpoints/
+checkpoint-*/
+runs/
+output/
+outputs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Hugging Face cache & tokens
+.cache/
+hf_cache/
+*.token
+
+# WandB (Weights & Biases) & TensorBoard
+wandb/
+
+# Environment variables & credentials
+.env
+.env.local
+.env.*.local
+*.secret
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
